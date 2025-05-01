@@ -82,8 +82,8 @@
 	{
         "name": "Corrupted",
         "uniques": ["Consumes [-1] [Warp Shard] <for every [1] [Era Counter]> <hidden from users>",
-                    "Can instantly construct a [Corruption] improvement <in tiles adjacent to [Portal] tiles> <in tiles without [Portal]> <costs [25] [Warp Shard]>",
-					"Can instantly construct a [Corruption] improvement <in tiles adjacent to [Corruption] tiles> <in tiles without [Portal]> <costs [25] [Warp Shard]>",
+                    "Can instantly construct a [Corruption] improvement <in tiles adjacent to [Portal] tiles> <costs [25] [Warp Shard]>",
+					"Can instantly construct a [Corruption] improvement <in tiles adjacent to [Corruption] tiles> <costs [25] [Warp Shard]>",
                     "May Paradrop up to [5] tiles from inside friendly territory",
                     "No damage penalty for wounded units",
                     "[-100]% maintenance costs",
