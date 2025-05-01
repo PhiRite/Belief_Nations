@@ -87,10 +87,6 @@
         "uniqueName": "Blessing of Chaos",
         "uniques": ["Comment [Units get specific buffs]",
 			        "[-100]% unhappiness from the number of cities", "[-100]% Unhappiness from [Population] [in your cities]",
-					
-			        "All newly-trained [Land] units [in your cities] receive the [Corrupted] promotion <hidden from users>",
-			        "All newly-trained [Land] units [in your cities] receive the [Plague] promotion <hidden from users>",
-			        "All newly-trained [Melee] units [in your cities] receive the [Wrath] promotion <hidden from users>",
 
 					"Nullifies [Food] [in all cities] <hidden from users>",
 					"Nullifies [Production] [in all cities] <hidden from users>",
