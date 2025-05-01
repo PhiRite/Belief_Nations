@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Heavy Walker",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost",
+                    "Can pass through impassable tiles", "May travel on Water tiles without embarking"]
+    },
+    {
+        "name": "Celestial",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost", "Can pass through impassable tiles", 
+                    "May travel on Water tiles without embarking", "Can enter ice tiles"]
+    }
+    {
+        "name": "Warp Spawn",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost",  "Can enter ice tiles",
+                    "May travel on Water tiles without embarking"]
+    }
+]

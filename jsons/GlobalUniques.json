@@ -1,0 +1,7 @@
+{
+    "name": "Global uniques",
+    "uniques": [],
+    "unitUniques": ["[This Unit] gains the [Corrupted] promotion <upon turn end> <for [Land] units> <for [Warp Invasion] Civilizations>",
+                    "[This Unit] gains the [Plague] promotion <upon turn end> <for [Land] units> <for [Warp Invasion] Civilizations>",
+                    "[This Unit] gains the [Wrath] promotion <upon turn end> <for [Melee] units> <for [Warp Invasion] Civilizations>",]
+}

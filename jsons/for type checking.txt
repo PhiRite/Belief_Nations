@@ -1,0 +1,69 @@
+
+Using VSCode
+
+    ctrl-shift-p, search "open user settings (json)", enter
+    Copy this into the settings: 
+
+
+"json.schemas": [
+        {
+            "fileMatch": [
+                "*/Buildings.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/buildings.json"
+        },
+        {
+            "fileMatch": [
+              "*/Units.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/units.json"
+        },
+        {
+            "fileMatch": [
+              "*/Nations.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/nations.json"
+        },
+        {
+            "fileMatch": [
+              "*/TileImprovements.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/tileImprovements.json"
+        },
+        {
+            "fileMatch": [
+              "*/Techs.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/techs.json"
+        },
+        {
+            "fileMatch": [
+              "*/UnitTypes.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/unitTypes.json"
+        },
+        {
+            "fileMatch": [
+              "*/UnitPromotions.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/unitPromotions.json"
+        },
+        {
+            "fileMatch": [
+              "*/TileResources.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/tileResources.json"
+        },
+        {
+            "fileMatch": [
+              "*/Events.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/events.json"
+        },
+        {
+            "fileMatch": [
+              "*/Terrains.json"
+            ],
+            "url": "https://raw.githubusercontent.com/yairm210/Unciv/master/docs/Modders/schemas/terrains.json"
+        }
+    ]

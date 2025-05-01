@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Missile Reload",
+        "uniques": ["[This Unit] gains the [Rearming] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]>",
+                    "[This Unit] gains the [Cooldown] status for [6] turn(s) <upon gaining the [Rearming] status> <hidden from users>",
+                    "[This Unit] loses the [Rearming] status <upon turn end>"]
+    },
+    {
+	"name": "Artillery Mode",
+	"uniques": ["[2] Sight", "[2] Range"]
+    },
+    {
+        "name": "Rearming",
+        "uniques": ["[1] free [Missile Barrage] units appear <costs [+200 Gold] stats> <[4] times> <for [0] movement>"]
+    },
+	{
+        "name": "Reload Cooldown",
+		"uniques": ["Comment [Skill is in cooldown]"]
+    },
+    {
+        "name": "Cooldown",
+		"uniques": ["Comment [Skill is in cooldown]"]
+    },
+	{
+		"name": "Atheist",
+		"uniques": ["[+5]% Strength <for every [Era Counter]> <hidden from users>",
+                    "Comment [Gets 5% strength each era]",
+                    "Prevents spreading of religion to the city it is next to",
+                    "[1] additional attacks per turn <when above [4] [Era Counter]>",
+					"[This Unit] heals [5] HP <upon turn end> <when above [0] Happiness>",
+                    "Earn [50]% of killed [All] unit's [Strength] as [Science]",
+		            "Earn [50]% of killed [All] unit's [Strength] as [Culture]"]
+	},
+
+
+	{
+		"name": "Healing Prayer",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Celestial", "Warp Spawn"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+    },
+	{
+		"name": "Defender of Peace",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Celestial"],
+		"column": 1
+    },
+	{
+		"name": "All Seeing Eyes",
+		"prerequisites": ["Defender of Peace"],
+		"uniques": ["[2] Sight"],
+		"unitTypes": ["Celestial"],
+		"column": 1
+    },
+	{
+		"name": "Flames of Judgement",
+		"prerequisites": ["All Seeing Eyes"],
+		"uniques": ["Instantly gain [2] [Seraphite] <upon defeating a [All] unit>"],
+		"unitTypes": ["Celestial"],
+		"column": 1
+    },
+	{
+		"name": "Swiftness",
+		"prerequisites": ["Flames of Judgement"],
+		"uniques": ["[1] Movement", "Withdraws before melee combat <with [30]% chance>"],
+		"unitTypes": ["Celestial"],
+		"column": 1
+    },
+	{
+		"name": "Righteous Hand",
+		"prerequisites": ["Swiftness"],
+		"uniques": ["[1] additional attacks per turn <for [Angel] units>", 
+					"[2] additional attacks per turn <for [Archangel] units>"],
+		"unitTypes": ["Celestial"],
+        "column": 1
+    },
+	{
+        "name": "Prayer",
+		"uniques": ["[This Unit] heals [20] HP <upon turn end>"]
+    },
+	{
+        "name": "Corrupted",
+        "uniques": ["Consumes [-1] [Warp Shard] <for every [1] [Era Counter]> <hidden from users>",
+                    "Can instantly construct a [Corruption] improvement <in tiles adjacent to [Portal] tiles> <in tiles without [Portal]> <costs [25] [Warp Shard]>",
+					"Can instantly construct a [Corruption] improvement <in tiles adjacent to [Corruption] tiles> <in tiles without [Portal]> <costs [25] [Warp Shard]>",
+                    "May Paradrop up to [5] tiles from inside friendly territory",
+                    "No damage penalty for wounded units",
+                    "[-100]% maintenance costs",
+                    "[+10]% to Flank Attack bonuses",
+                    "Can move immediately once bought",
+                    "[This Unit] gains [3] movement",
+                    "[-20]% Strength <when defending>"]
+    },
+    {
+        "name": "Wrath",
+        "uniques": ["Comment [Unit will have unlimited attacks heal from kills, but each atk slowly kills the units]",
+					"Earn [25]% of the damage done to [All] units as [Faith]",
+                    "[This Unit] gains the [Bloodletter] status for [1] turn(s) <costs [+50 Faith] stats> <for [0] movement> <for units without [Cooldown]>",
+                    "[This Unit] gains the [Cooldown] status for [5] turn(s) <upon gaining the [Bloodletter] status> <hidden from users>"]
+    },
+    {
+        "name": "Bloodletter",
+        "uniques": ["Comment [SPILL THEIR BLOOD!]", "[4] Movement",
+                    "Ignores terrain cost", "Can move after attacking", "Ignores Zone of Control",
+                    "[99] additional attacks per turn", "No damage penalty for wounded units",
+                    "[This Unit] takes [10] damage <upon damaging a [All] unit>",
+                    "[This Unit] gains [2] movement <upon damaging a [All] unit>",
+                    "[This Unit] gains [4] movement <upon defeating a [All] unit>",
+                    "Heals [30] damage if it kills a unit",
+                    "Gain [15] [Faith] <upon defeating a [All] unit>"]
+    },
+    {
+        "name": "Plague",
+        "uniques": ["[-10]% Strength for enemy [Wounded] units in adjacent [All] tiles",
+                    "[-10]% Strength for enemy [All] units in adjacent [All] tiles <when below [31] HP>",
+                    "[-5]% Strength for enemy [All] units in adjacent [All] tiles",
+                    "Destroys tile improvements when attacking"]
+    },
+    {
+        "name": "Evolution I",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [200] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [200] [Warp Shard]>",
+            
+                    "[1] free [Scout] units appear <for [1] movement> <costs [60] [Warp Shard]>",
+					"[1] free [Warrior] units appear <for [1] movement> <costs [100] [Warp Shard]>",
+				    "[1] free [Trireme] units appear <for [1] movement> <costs [100] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution II",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [300] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [300] [Warp Shard]>",
+
+					"[1] free [Spearman] units appear <for [1] movement> <costs [150] [Warp Shard]>",
+                    "[1] free [Catapult] units appear <for [1] movement> <costs [150] [Warp Shard]>",
+				    "[1] free [Trireme] units appear <for [1] movement> <costs [100] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution III",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [400] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [400] [Warp Shard]>",
+
+					"[1] free [Knight] units appear <for [1] movement> <costs [200] [Warp Shard]>",
+                    "[1] free [Trebuchet] units appear <for [1] movement> <costs [200] [Warp Shard]>",
+					"[1] free [Galleass] units appear <for [1] movement> <costs [200] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution IV",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [550] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [550] [Warp Shard]>",
+
+					"[1] free [Musketeer] units appear <for [1] movement> <costs [300] [Warp Shard]>",
+                    "[1] free [Cannon] units appear <for [1] movement> <costs [320] [Warp Shard]>",
+					"[1] free [Caravel] units appear <for [1] movement> <costs [300] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution V",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [600] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [600] [Warp Shard]>",
+
+					"[1] free [Rifleman] units appear <for [1] movement> <costs [400] [Warp Shard]> ",
+                    "[1] free [Artillery] units appear <for [1] movement> <costs [420] [Warp Shard]>",
+					"[1] free [Ironclad] units appear <for [1] movement> <costs [400] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution VI",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [650] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [650] [Warp Shard]>",
+
+					"[1] free [Infantry] units appear <for [1] movement> <costs [500] [Warp Shard]>",
+                    "[1] free [Artillery] units appear <for [1] movement> <costs [520] [Warp Shard]>",
+					"[1] free [Submarine] units appear <for [1] movement> <costs [500] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution VII",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [700] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [700] [Warp Shard]>",
+
+					"[1] free [Marine] units appear <for [1] movement> <costs [600] [Warp Shard]>",
+                    "[1] free [Rocket Artillery] units appear <for [1] movement> <costs [620] [Warp Shard]>",
+					"[1] free [Nuclear Submarine] units appear <for [1] movement> <costs [600] [Warp Shard]>"]
+    },
+    {
+        "name": "Evolution VIII",
+        "uniques": ["Free Social Policy <for [1] movement> <costs [750] [Warp Shard]>",
+					"Free Technology <for [1] movement> <costs [750] [Warp Shard]>",
+
+					"[1] free [Modern Armor] units appear <for [1] movement> <costs [600] [Warp Shard]>",
+                    "[1] free [Giant Death Robot] units appear <for [1] movement> <costs [600] [Warp Shard]>",
+					"[1] free [Nuclear Submarine] units appear <for [1] movement> <costs [600] [Warp Shard]>"]
+    },
+    {
+        "name": "Psychic Casting",
+        "uniques": ["[3] Range", "[4] Sight"],
+        "unitTypes": ["Warp Spawn"],
+		"column": 1
+    },
+    {
+        "name": "Psychic Drain",
+        "prerequisites": ["Psychic Casting"],
+        "uniques": ["Earn [15]% of the damage done to [All] units as [Warp Shard] <for every [1] [Era Counter]>",
+                    "[This Unit] heals [5] HP <upon damaging a [All] unit>"],
+        "unitTypes": ["Warp Spawn"],
+		"column": 1
+    },
+    {
+        "name": "Psychic Movement",
+        "prerequisites": ["Psychic Drain"],
+        "uniques": ["[2] Movement", "Withdraws before melee combat <with [30]% chance>"],
+        "unitTypes": ["Warp Spawn"],
+		"column": 1
+    },
+    {
+        "name": "Psychic Strikes",
+        "prerequisites": ["Psychic Movement"],
+        "uniques": ["[1] additional attacks per turn <for every [1] [Era Counter]>",
+                    "[This Unit] gains [1] movement <upon damaging a [All] unit>"],
+        "unitTypes": ["Warp Spawn"],
+		"column": 1
+    },
+    {
+        "name": "Unveiling Truth",
+        "prerequisites": ["Psychic Strikes"],
+        "uniques": ["[1] free [Fate Weaver] units appear <costs [+500] [Warp Shard]>"],
+        "unitTypes": ["Warp Spawn"],
+		"column": 1
+    }
+]

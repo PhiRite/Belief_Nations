@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Non-Believers",
+        "leadername": "Arkhan",
+        "outerColor": [50, 100, 100],
+		"innerColor": [180, 140, 90],
+
+        "startIntroPart1": "Show the people the might of our technology",
+
+        "declaringWar": "Educate the people!",
+        "attacked": "Oh well, lets hope your god will aid you in this war.",
+        "defeated": "I should have taken you down with me.",
+		"introduction": "Do you wish to see the wonders of science?",
+
+        "neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+        "tradeRequest": "It appears that you do have a reason for existing, to make this deal with me.",
+		"startBias": ["Plains"],
+
+        "uniqueName": "Atheism",
+        "uniques": ["[+1 Production, -1 Faith, +1 Culture] from all [Faith] buildings",
+					"[+1 Production, -1 Faith, +1 Science] from all [Science] buildings",
+					"[+1 Production, +1 Food, +1 Gold, +1 Science, +1 Culture, +1 Happiness] [in your cities] <for every [1] [Era Counter]><in cities with at least [8] [Population]>",
+			        "May buy [Great Teacher] units with [Gold] for [3] times their normal Production cost <hidden from users>",
+					"Provides [1] [Nano Core] <for every [3] [Cities]> <hidden from users>",
+					"Quantity of strategic resources produced by the empire +[100]%",
+			        "All newly-trained [All] units [in your cities] receive the [Atheist] promotion",
+					"May choose [-1] additional [Follower] beliefs when [founding] a religion",
+					"May choose [-1] additional [Follower] beliefs when [enhancing] a religion",
+					"Instantly gain [1] [Era Counter] <upon entering a new era>"],
+
+        "cities": ["Ark Majesty", "Caestus Metalican", "Encoronada", "Iron Revenant", "Manufactorum", 
+					"Opus Machina", "Patternmaster", "Pent-Ark", "Speranza", "Zar-Quaesitor", "Maestrale"],
+        "spyNames": ["Director Primus", "Ganimus", "The Garantine", "Sylas Torq", "Klara Rhasc", "Noctus Kord", "Kurei Adamta", "Viktor Zhau"]
+
+    },
+    {
+        "name": "Hall of Angels",
+        "leaderName": "Seraphim",
+        "outerColor": [255, 215, 0],
+		"innerColor": [255, 255, 255],
+
+        "startIntroPart1": "Let us guide the world with the light of the heavens.",
+
+        "declaringWar": "The wicked must be cleansed by divine flame.",
+        "attacked": "You strike at the sky itself. May grace judge you.",
+        "defeated": "Even fallen, I remain a servant of the divine.",
+		"introduction": "Have you come seeking the wisdom of the stars?",
+
+        "neutralHello": "Peace be upon you, traveler.",
+		"hateHello": "Even angels have limits.",
+
+        "tradeRequest": "The heavens approve of this exchange — let it be so.",
+		"startBias": ["Grassland"],
+        
+        "uniqueName": "Call to Heavens",
+        "uniques": ["[+1 Faith] per [1] population [in your cities]",
+			        "May choose [1] additional belief(s) of any type when [founding] a religion",
+			        "May buy [Angel] units with [Faith] for [2] times their normal Production cost <hidden from users>",
+					"[+2 Faith, +1 Happiness] <for every [[Angel] Units]>", "[+3 Faith, +1 Happiness] <for every [[Archangel] Units]>",
+					"Instantly gain [1] [Era Counter] <upon entering a new era>"], 
+
+        "cities": ["Seraphia", "Lumenhold", "Celestara", "Halo's Reach", "Sanctus Vale",
+					"Elariel", "Heavenspire", "Aurelia", "Gracehaven", "Solara's Rest", "Dawnchant",
+					"Ethergate", "Radiant Watch", "Zephireth", "Chorus of Light"]
+        
+    }
+	{
+        "name": "Warp Invasion",
+        "leaderName": "Kairos",
+        "outerColor": [102, 0, 204],
+		"innerColor": [0, 255, 255],
+
+        "startIntroPart1": "The veil thins, and reality begins to scream.",
+
+        "declaringWar": "The gods demand chaos — your world shall writhe.",
+        "attacked": "You dare strike the blessed of the Warp? How delightful.",
+        "defeated": "I return to the void... but the storm is eternal.",
+        "introduction": "Do you seek knowledge... or are you merely a pawn?",
+        "neutralHello": "The winds shift. You were expected.",
+        "hateHello": "You've strayed too far from the script.",
+
+        "tradeRequest": "A worthy twist. Let us exchange... fates.",
+		"startBias": ["Tundra"],
+        
+        "uniqueName": "Blessing of Chaos",
+        "uniques": ["Comment [Units get specific buffs]",
+			        "[-100]% unhappiness from the number of cities", "[-100]% Unhappiness from [Population] [in your cities]",
+					
+			        "All newly-trained [Land] units [in your cities] receive the [Corrupted] promotion <hidden from users>",
+			        "All newly-trained [Land] units [in your cities] receive the [Plague] promotion <hidden from users>",
+			        "All newly-trained [Melee] units [in your cities] receive the [Wrath] promotion <hidden from users>",
+
+					"Nullifies [Food] [in all cities] <hidden from users>",
+					"Nullifies [Production] [in all cities] <hidden from users>",
+					"[-100]% maintenance costs <hidden from users>",
+					"Nullifies [Culture] [in all cities] <hidden from users>",
+					"Nullifies [Science] [in all cities] <hidden from users>",
+					"Nullifies [Gold] [in all cities] <hidden from users>",
+			        "Cannot build [Settler] units", "May not annex cities",
+					"Instantly gain [1] [Era Counter] <upon entering a new era>"
+			        ],
+
+        "cities": ["Breachpoint Eternum", "The Riven Star", "Warpfall Bastion", "Screaming Gate", "The Evermarch",
+			        "Invasion Spire", "The Tearing Maw", "Reality's End", "Echohold", "Storm of Arrival",
+			        "Threshold Prime", "The Burning Spiral", "Fallwake", "The Unseen Siege", "Shatterreach",
+			        "Gravetide Ascent", "March of Unmaking", "The Twisting Front", "Ashcrown Rift", "Veilpiercer"]
+        
+    }
+]

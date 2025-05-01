@@ -1,0 +1,27 @@
+[
+    {
+		"name": "Corruption",
+		"uniqueTo": "Warp Invasion",
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Adjacent enemy units ending their turn take [10] damage", 
+					"Consumes [-2] [Warp Shard]", "Gain control over [All] tiles in a [0]-tile radius",
+					"[-5 Food, -5 Culture, -5 Science, -5 Gold, -5 Faith, -5 Production] <in [Enemy Land] tiles>"],
+		"civilopediaText": [
+			{"text": "The Truth seeping out."}
+        ]
+	},
+    {
+		"name": "Portal",
+		"uniqueTo": "Warp Invasion",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Adjacent enemy units ending their turn take [15] damage",
+					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [Enemy Land] tiles>",
+                    "Gain control over [All] tiles in a [1]-tile radius", "Tile provides yield without assigned population",
+					"Consumes [-3] [Warp Shard]",],
+		"civilopediaText": [
+			{"text": "Beginnings of an Invasion."}
+        ]
+	}
+]

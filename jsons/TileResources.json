@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Nano Core",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Nano Cores Used to Create Mobile Armors]",
+                    "Not shown on world screen <for [non-[Non-Believers]] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "Era Counter",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia",
+                    "Doesn't generate naturally", "Stockpiled",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "Seraphite",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled",
+                    "Not shown on world screen <for [non-[Hall of Angels]] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    }
+    {
+		"name": "Warp Shard",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded", "Stockpiled", 
+					"Not shown on world screen <for [non-[Warp Invasion]] Civilizations>",
+					"Doesn't generate naturally", "Excluded from map editor",]
+	}
+]

@@ -1,2 +1,1 @@
-# Belief_Nations
-Belief to nation conversion of my beleif mods
+# Belief-Nations

@@ -1,0 +1,132 @@
+
+game.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Hall of Angels
+  rotate: false
+  xy: 652, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Non-Believers
+  rotate: false
+  xy: 1192, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Era Counter
+  rotate: false
+  xy: 436, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nano Core
+  rotate: false
+  xy: 1084, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Seraphite
+  rotate: false
+  xy: 1300, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Angel
+  rotate: false
+  xy: 4, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archangel
+  rotate: false
+  xy: 220, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Devotee
+  rotate: false
+  xy: 1408, 43
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Fate Weaver
+  rotate: false
+  xy: 1511, 43
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Teacher
+  rotate: false
+  xy: 1614, 59
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mobile Armor
+  rotate: false
+  xy: 868, 29
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Corruption
+  rotate: false
+  xy: 1699, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Portal
+  rotate: false
+  xy: 1699, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitIcons/Angel
+  rotate: false
+  xy: 112, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Archangel
+  rotate: false
+  xy: 328, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Teacher
+  rotate: false
+  xy: 544, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile Barrage
+  rotate: false
+  xy: 760, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mobile Armor
+  rotate: false
+  xy: 976, 24
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
