@@ -19,6 +19,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Consumes [-1] [Warp Shard] <for every [1] [Era Counter]> <hidden from users>",
 					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [Enemy Land] tiles>",
+					"Consumes [-1] [Warp Shard] <with [1] to [6] neighboring [Corruption] tiles>",
                     "Gain control over [All] tiles in a [1]-tile radius", "Tile provides yield without assigned population",
 					"Consumes [-2] [Warp Shard]", "Removes removable features when built", "Unpillagable",
 					"Does not need removal of [Forest]","Does not need removal of [Jungle]"],
