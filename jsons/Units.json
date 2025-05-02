@@ -105,15 +105,15 @@
                     "Instantly gain [1] [Seraphite] <upon defeating a [All] unit>", "[-5]% production cost <for every [Era Counter]> <hidden from users>"],
         "attackSound": "metalhit",
         "religiousStrength": 250
-    }
+    },
 	{
         "name": "Fate Weaver",
         "unitType": "Warp Spawn",
         "uniqueTo": "Warp Invasion",
         "strength": 25,
-	"rangedStrength": 35,
+		"rangedStrength": 35,
         "movement": 3,
-	"replaces": "Settler",
+		"replaces": "Settler",
         "cost": 120,
         "uniques": ["May enter foreign tiles without open borders","Uncapturable",
                     "Can move immediately once bought <hidden from users>",
