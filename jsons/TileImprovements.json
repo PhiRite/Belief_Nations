@@ -2,7 +2,7 @@
     {
 		"name": "Corruption",
 		"uniqueTo": "Warp Invasion",
-		"turnsToBuild": 3,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Consumes [-1] [Warp Shard] <for every [1] [Era Counter]> <hidden from users>",
 					"Consumes [-1] [Warp Shard]", "Gain control over [All] tiles in a [0]-tile radius", "Removes removable features when built",
@@ -15,7 +15,7 @@
     {
 		"name": "Portal",
 		"uniqueTo": "Warp Invasion",
-		"turnsToBuild": 7,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Consumes [-1] [Warp Shard] <for every [1] [Era Counter]> <hidden from users>",
 					"[-10 Food, -10 Culture, -10 Science, -10 Gold, -10 Faith, -10 Production] <in [Enemy Land] tiles>",
