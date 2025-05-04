@@ -1,131 +1,166 @@
 
 game.png
-size: 2048, 128
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+ImprovementIcons/Corruption
+  rotate: false
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Portal
+  rotate: false
+  xy: 976, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Hall of Angels
   rotate: false
-  xy: 652, 24
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Non-Believers
   rotate: false
-  xy: 1192, 24
+  xy: 868, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Warp Invasion
+  rotate: false
+  xy: 1192, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Era Counter
   rotate: false
-  xy: 436, 24
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Nano Core
   rotate: false
-  xy: 1084, 24
+  xy: 760, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Seraphite
   rotate: false
-  xy: 1300, 24
+  xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Warp Shard
+  rotate: false
+  xy: 1300, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Angel
   rotate: false
-  xy: 4, 24
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Archangel
   rotate: false
-  xy: 220, 24
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Devotee
   rotate: false
-  xy: 1408, 43
+  xy: 652, 23
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Fate Weaver
   rotate: false
-  xy: 1511, 43
-  size: 95, 81
-  orig: 95, 81
+  xy: 328, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Teacher
   rotate: false
-  xy: 1614, 59
+  xy: 1408, 147
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mobile Armor
   rotate: false
-  xy: 868, 29
+  xy: 544, 9
   size: 100, 95
   orig: 100, 95
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Corruption
   rotate: false
-  xy: 1699, 68
+  xy: 755, 48
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Portal
   rotate: false
-  xy: 1699, 4
+  xy: 1493, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Angel
   rotate: false
-  xy: 112, 24
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archangel
   rotate: false
-  xy: 328, 24
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fate Weaver
+  rotate: false
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Teacher
   rotate: false
-  xy: 544, 24
+  xy: 436, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missile Barrage
   rotate: false
-  xy: 760, 24
+  xy: 544, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mobile Armor
   rotate: false
-  xy: 976, 24
+  xy: 652, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
